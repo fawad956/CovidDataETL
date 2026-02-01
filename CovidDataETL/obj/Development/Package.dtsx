@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="11"
-  DTS:VersionGUID="{FDA3FF9C-BFFD-425D-8FBE-312884AB4A3C}">
+  DTS:VersionBuild="13"
+  DTS:VersionGUID="{690EAC31-234F-444E-84DB-A6985FFDC5A5}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -24,161 +24,6 @@
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:ConnectionString="Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=BI_Workflow_Covid;Integrated Security=True;" />
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[Flat File Connection Manager]"
-      DTS:CreationName="FLATFILE"
-      DTS:DTSID="{F24C54A7-D2D4-45DC-A483-825309752B76}"
-      DTS:ObjectName="Flat File Connection Manager">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:Format="Delimited"
-          DTS:LocaleID="1033"
-          DTS:HeaderRowDelimiter="_x000D__x000A_"
-          DTS:ColumnNamesInFirstDataRow="True"
-          DTS:RowDelimiter=""
-          DTS:TextQualifier="_x003C_none_x003E_"
-          DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Users\fawad\OneDrive\Documents\GitHub\CovidDataETL\Data\country_wise_latest.csv">
-          <DTS:FlatFileColumns>
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Country"
-              DTS:DTSID="{49B0CD4B-EFB6-4424-8953-38071E8AD845}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Confirmed"
-              DTS:DTSID="{E6D19A53-574E-4AB1-97BE-B3321E3EA6EC}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Deaths"
-              DTS:DTSID="{2839000E-325B-4C6E-A95E-9035DC2B7A12}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Recovered"
-              DTS:DTSID="{803320FC-E6FB-4A56-951A-65202C78EBE9}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Active"
-              DTS:DTSID="{5625F2A6-8D73-4E27-9CA9-594ABAFAB6AC}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="New_cases"
-              DTS:DTSID="{A205EA12-8957-4A0E-B719-5257E3BDCF62}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="New_deaths"
-              DTS:DTSID="{49974D6D-1DFB-49E0-817D-12E4CF3ACF7C}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="New_recovered"
-              DTS:DTSID="{73B2733F-EABA-4C97-A0BD-FFDD08299F16}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Death"
-              DTS:DTSID="{04E1232A-4E2E-4716-AEFB-02E2DC13E481}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Recovered_100_cases"
-              DTS:DTSID="{41453077-E159-4B1C-939C-167E3BC5C17A}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Deaths_100_Recovered"
-              DTS:DTSID="{1CB3482E-D3DD-4B9B-BC68-4D0387545115}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Confirmed_last_week"
-              DTS:DTSID="{511A87F6-3A71-47D6-A835-81BFDF56DDF1}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="1_week_change"
-              DTS:DTSID="{01E9233F-9511-4896-A6CA-2270F6336E41}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="1_week%_increase"
-              DTS:DTSID="{C2830A99-26C9-4A5A-B9A9-98196EB67554}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x000D__x000A_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="WHO_Region"
-              DTS:DTSID="{992AFB57-6B08-4F11-A5AE-E8CA64F6DCDF}"
-              DTS:CreationName="" />
-          </DTS:FlatFileColumns>
-        </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -745,8 +590,8 @@
               <connections>
                 <connection
                   refId="Package\CountryWiseLatest\Flat File Destination.Connections[FlatFileConnection]"
-                  connectionManagerID="Package.ConnectionManagers[Flat File Connection Manager]"
-                  connectionManagerRefId="Package.ConnectionManagers[Flat File Connection Manager]"
+                  connectionManagerID="{F24C54A7-D2D4-45DC-A483-825309752B76}:external"
+                  connectionManagerRefId="Project.ConnectionManagers[Flat File Connection Manager]"
                   name="FlatFileConnection" />
               </connections>
               <inputs>
@@ -994,8 +839,8 @@
               <connections>
                 <connection
                   refId="Package\CountryWiseLatest\Flat File Source.Connections[FlatFileConnection]"
-                  connectionManagerID="Package.ConnectionManagers[Flat File Connection Manager]"
-                  connectionManagerRefId="Package.ConnectionManagers[Flat File Connection Manager]"
+                  connectionManagerID="{F24C54A7-D2D4-45DC-A483-825309752B76}:external"
+                  connectionManagerRefId="Project.ConnectionManagers[Flat File Connection Manager]"
                   name="FlatFileConnection" />
               </connections>
               <outputs>
@@ -1915,7 +1760,7 @@
         <NodeLayout
           Size="166.4,41.6"
           Id="Package\CountryWiseLatest"
-          TopLeft="7.99999986340602,5.49999999999995" />
+          TopLeft="6.33333328780199,3.76666667872" />
         <NodeLayout
           Size="156,41.6"
           Id="Package\WHOGlobalData"
@@ -1929,17 +1774,25 @@
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="179.2,41.6"
-          Id="Package\CountryWiseLatest\ADO NET Destination"
-          TopLeft="95.4999950826171,226.699999168316" />
-        <NodeLayout
           Size="151.2,41.6"
           Id="Package\CountryWiseLatest\Flat File Source"
           TopLeft="21.9999998634061,7.2333333212799" />
         <NodeLayout
+          Size="170.4,41.6"
+          Id="Package\CountryWiseLatest\Flat File Destination"
+          TopLeft="189.166656331056,369.199997432629" />
+        <NodeLayout
+          Size="153.6,41.6"
+          Id="Package\CountryWiseLatest\Conditional Split"
+          TopLeft="396.666644993757,212.333331856794" />
+        <NodeLayout
           Size="152.8,41.6"
           Id="Package\CountryWiseLatest\Derived Column"
           TopLeft="318.333315940368,93.5999993491173" />
+        <NodeLayout
+          Size="179.2,41.6"
+          Id="Package\CountryWiseLatest\ADO NET Destination"
+          TopLeft="95.4999950826171,226.699999168316" />
         <EdgeLayout
           Id="Package\CountryWiseLatest.Paths[Flat File Source Output]"
           TopLeft="97.5999998634061,48.8333333212799">
@@ -1974,10 +1827,6 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="153.6,41.6"
-          Id="Package\CountryWiseLatest\Conditional Split"
-          TopLeft="396.666644993757,212.333331856794" />
         <EdgeLayout
           Id="Package\CountryWiseLatest.Paths[Derived Column Output]"
           TopLeft="394.733315940368,135.199999349117">
@@ -2043,13 +1892,11 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="-131.59723120557,-17.658203125,141.2278125,11.658203125"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="170.4,41.6"
-          Id="Package\CountryWiseLatest\Flat File Destination"
-          TopLeft="189.166656331056,369.199997432629" />
         <EdgeLayout
           Id="Package\CountryWiseLatest.Paths[ADO NET Destination Error Output]"
           TopLeft="185.099995082617,268.299999168316">
@@ -2093,14 +1940,14 @@
     design-time-name="Package\WHOGlobalData">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="NaN,NaN"
-          Id="Package\WHOGlobalData\Flat File Source"
+          Size="179.2,41.6"
+          Id="Package\WHOGlobalData\ADO NET Destination"
           TopLeft="NaN,NaN" />
         <NodeLayout
-          Size="NaN,NaN"
-          Id="Package\WHOGlobalData\ADO NET Destination"
+          Size="151.2,41.6"
+          Id="Package\WHOGlobalData\Flat File Source"
           TopLeft="NaN,NaN" />
         <EdgeLayout
           Id="Package\WHOGlobalData.Paths[Flat File Source Output]"
@@ -2117,9 +1964,7 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
