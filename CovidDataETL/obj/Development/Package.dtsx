@@ -12,7 +12,7 @@
   DTS:ObjectName="Package"
   DTS:PackageType="5"
   DTS:VersionBuild="11"
-  DTS:VersionGUID="{50CDFCF9-BAAA-4D02-86BC-B64402EF4141}">
+  DTS:VersionGUID="{FDA3FF9C-BFFD-425D-8FBE-312884AB4A3C}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -27,10 +27,10 @@
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[CoutnryWiseLatest]"
+      DTS:refId="Package.ConnectionManagers[Flat File Connection Manager]"
       DTS:CreationName="FLATFILE"
       DTS:DTSID="{F24C54A7-D2D4-45DC-A483-825309752B76}"
-      DTS:ObjectName="CoutnryWiseLatest">
+      DTS:ObjectName="Flat File Connection Manager">
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:Format="Delimited"
@@ -40,7 +40,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Users\fawad\Github\BI Workflow for Covid Data\country_wise_latest.csv">
+          DTS:ConnectionString="C:\Users\fawad\OneDrive\Documents\GitHub\CovidDataETL\Data\country_wise_latest.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -49,7 +49,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Country"
-              DTS:DTSID="{B64C014B-52A1-41B9-BBB9-899C2A347DA9}"
+              DTS:DTSID="{49B0CD4B-EFB6-4424-8953-38071E8AD845}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -58,7 +58,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Confirmed"
-              DTS:DTSID="{66FB540D-DA88-4F76-89E4-DA695340D3D1}"
+              DTS:DTSID="{E6D19A53-574E-4AB1-97BE-B3321E3EA6EC}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -67,7 +67,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Deaths"
-              DTS:DTSID="{F0FC642D-CA98-422E-91D2-DC22E05408CE}"
+              DTS:DTSID="{2839000E-325B-4C6E-A95E-9035DC2B7A12}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -76,7 +76,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Recovered"
-              DTS:DTSID="{0829116A-D11B-4DF0-B873-D4230643D1F6}"
+              DTS:DTSID="{803320FC-E6FB-4A56-951A-65202C78EBE9}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -85,7 +85,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Active"
-              DTS:DTSID="{E59E6D60-71FE-4A89-A3CD-C3A15542D93E}"
+              DTS:DTSID="{5625F2A6-8D73-4E27-9CA9-594ABAFAB6AC}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -94,7 +94,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="New_cases"
-              DTS:DTSID="{9929CAA5-A90F-4921-8819-F8169CA229EA}"
+              DTS:DTSID="{A205EA12-8957-4A0E-B719-5257E3BDCF62}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -103,7 +103,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="New_deaths"
-              DTS:DTSID="{337EC169-1057-4972-A2E1-AB79A76CCC05}"
+              DTS:DTSID="{49974D6D-1DFB-49E0-817D-12E4CF3ACF7C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -112,7 +112,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="New_recovered"
-              DTS:DTSID="{0CF50AFE-C6C5-48DD-A4AC-30B0BD751B99}"
+              DTS:DTSID="{73B2733F-EABA-4C97-A0BD-FFDD08299F16}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -121,7 +121,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Death"
-              DTS:DTSID="{3819583A-4622-4B5F-8EC9-342925901608}"
+              DTS:DTSID="{04E1232A-4E2E-4716-AEFB-02E2DC13E481}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -130,7 +130,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Recovered_100_cases"
-              DTS:DTSID="{69E8C735-B026-49F8-A170-0248266DBF6E}"
+              DTS:DTSID="{41453077-E159-4B1C-939C-167E3BC5C17A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -139,7 +139,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Deaths_100_Recovered"
-              DTS:DTSID="{C32269A2-2718-4D63-AD0C-080DD974A8D8}"
+              DTS:DTSID="{1CB3482E-D3DD-4B9B-BC68-4D0387545115}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -148,7 +148,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Confirmed_last_week"
-              DTS:DTSID="{7C1670AD-519C-4F13-B227-FD31A1E51CD3}"
+              DTS:DTSID="{511A87F6-3A71-47D6-A835-81BFDF56DDF1}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -157,7 +157,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="1_week_change"
-              DTS:DTSID="{F77C187D-7DA2-4689-A7E3-96071295CFE1}"
+              DTS:DTSID="{01E9233F-9511-4896-A6CA-2270F6336E41}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -166,7 +166,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="1_week%_increase"
-              DTS:DTSID="{48CDFEBD-4E48-4927-B58D-F0A8C1C4B44C}"
+              DTS:DTSID="{C2830A99-26C9-4A5A-B9A9-98196EB67554}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -175,109 +175,17 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="WHO_Region"
-              DTS:DTSID="{4B44DB0B-87F2-422B-A968-6A0D0B3BD1A0}"
+              DTS:DTSID="{992AFB57-6B08-4F11-A5AE-E8CA64F6DCDF}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[WHOGlobalDailyData]"
-      DTS:CreationName="FLATFILE"
-      DTS:DTSID="{62CCF6FF-8330-4D0B-BB25-72751F3C5DF5}"
-      DTS:ObjectName="WHOGlobalDailyData">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:Format="Delimited"
-          DTS:LocaleID="1033"
-          DTS:HeaderRowDelimiter="_x000D__x000A_"
-          DTS:ColumnNamesInFirstDataRow="True"
-          DTS:RowDelimiter=""
-          DTS:TextQualifier="_x003C_none_x003E_"
-          DTS:CodePage="65001"
-          DTS:ConnectionString="C:\Users\fawad\Github\BI Workflow for Covid Data\WHO-COVID-19-global-daily-data.csv">
-          <DTS:FlatFileColumns>
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Date_reported"
-              DTS:DTSID="{5EB55D4A-D5C7-4EB0-B548-D266E220086B}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Country_code"
-              DTS:DTSID="{A3FFC8AB-9A60-4284-B524-A953692126B1}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Country"
-              DTS:DTSID="{0EAE4E5C-E17D-4F22-BCF0-A1590D2B9B94}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="WHO_region"
-              DTS:DTSID="{2C7EF198-F049-4EED-9355-892FA36905AE}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="New_cases"
-              DTS:DTSID="{23D08C59-E305-41AA-B345-92ACD2970A6B}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Cumulative_cases"
-              DTS:DTSID="{A0F0A5E4-9C6F-485C-9126-FEBBE3531ADF}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="New_deaths"
-              DTS:DTSID="{1D8F28F4-A973-4519-A140-96F715F1F4D6}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x000D__x000A_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Cumulative_deaths"
-              DTS:DTSID="{6A7ED6A1-D6E9-43B0-B79B-C705D20B3A60}"
-              DTS:CreationName="" />
-          </DTS:FlatFileColumns>
-        </DTS:ConnectionManager>
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[WHOGlobalData]"
+      DTS:refId="Package.ConnectionManagers[Flat File Connection Manager 1]"
       DTS:CreationName="FLATFILE"
       DTS:DTSID="{0149F062-DAB8-42A6-8F7A-43ED9A441821}"
-      DTS:ObjectName="WHOGlobalData">
+      DTS:ObjectName="Flat File Connection Manager 1">
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:Format="Delimited"
@@ -310,7 +218,7 @@
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
+              DTS:MaximumWidth="200"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Country"
@@ -645,6 +553,426 @@
               </outputs>
             </component>
             <component
+              refId="Package\CountryWiseLatest\Conditional Split"
+              componentClassID="Microsoft.ConditionalSplit"
+              contactInfo="Conditional Split;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Routes data rows to different outputs depending on the content of the data. Use conditions (SSIS expressions) to specify which rows are routed. For example, separate records that need to be cleaned from those that are ready to be loaded or route only a subset of records."
+              name="Conditional Split"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\CountryWiseLatest\Conditional Split.Inputs[Conditional Split Input]"
+                  description="Input to the Conditional Split Transformation"
+                  name="Conditional Split Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\CountryWiseLatest\Conditional Split.Inputs[Conditional Split Input].Columns[Deaths_100_Recovered]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Deaths_100_Recovered"
+                      lineageId="Package\CountryWiseLatest\Flat File Source.Outputs[Flat File Source Output].Columns[Deaths_100_Recovered]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\CountryWiseLatest\Conditional Split.Outputs[Case 1]"
+                  description="Output 1 of the Conditional Split Transformation"
+                  errorOrTruncationOperation="Computation"
+                  errorRowDisposition="FailComponent"
+                  exclusionGroup="1"
+                  name="Case 1"
+                  synchronousInputId="Package\CountryWiseLatest\Conditional Split.Inputs[Conditional Split Input]"
+                  truncationRowDisposition="FailComponent">
+                  <properties>
+                    <property
+                      containsID="true"
+                      dataType="System.String"
+                      description="Specifies the expression. This expression version uses lineage identifiers instead of column names."
+                      name="Expression">[TRIM](#{Package\CountryWiseLatest\Flat File Source.Outputs[Flat File Source Output].Columns[Deaths_100_Recovered]}) == "" || [UPPER]([TRIM](#{Package\CountryWiseLatest\Flat File Source.Outputs[Flat File Source Output].Columns[Deaths_100_Recovered]})) == "INF" || [TRIM](#{Package\CountryWiseLatest\Flat File Source.Outputs[Flat File Source Output].Columns[Deaths_100_Recovered]}) == "N/A" || [TRIM](#{Package\CountryWiseLatest\Flat File Source.Outputs[Flat File Source Output].Columns[Deaths_100_Recovered]}) == "-"</property>
+                    <property
+                      containsID="true"
+                      dataType="System.String"
+                      description="Specifies the friendly version of the expression. This expression version uses column names."
+                      expressionType="Notify"
+                      name="FriendlyExpression">TRIM(Deaths_100_Recovered) == "" || UPPER(TRIM(Deaths_100_Recovered)) == "INF" || TRIM(Deaths_100_Recovered) == "N/A" || TRIM(Deaths_100_Recovered) == "-"</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the position of the condition in the list of conditions that the transformation evaluates. The evaluation order is from the lowest to the highest value."
+                      name="EvaluationOrder">0</property>
+                  </properties>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\CountryWiseLatest\Conditional Split.Outputs[Conditional Split Default Output]"
+                  description="Default Output of the Conditional Split Transformation"
+                  exclusionGroup="1"
+                  name="Conditional Split Default Output"
+                  synchronousInputId="Package\CountryWiseLatest\Conditional Split.Inputs[Conditional Split Input]">
+                  <properties>
+                    <property
+                      dataType="System.Boolean"
+                      name="IsDefaultOut">true</property>
+                  </properties>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\CountryWiseLatest\Conditional Split.Outputs[Conditional Split Error Output]"
+                  description="Error Output of the Conditional Split Transformation"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Conditional Split Error Output"
+                  synchronousInputId="Package\CountryWiseLatest\Conditional Split.Inputs[Conditional Split Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\CountryWiseLatest\Conditional Split.Outputs[Conditional Split Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\CountryWiseLatest\Conditional Split.Outputs[Conditional Split Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\CountryWiseLatest\Conditional Split.Outputs[Conditional Split Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\CountryWiseLatest\Conditional Split.Outputs[Conditional Split Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\CountryWiseLatest\Derived Column"
+              componentClassID="Microsoft.DerivedColumn"
+              contactInfo="Derived Column;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Creates new column values by applying expressions to transformation input columns. Create new columns or overwrite existing ones. For example, concatenate the values from the 'first name' and 'last name' column to make a 'full name' column."
+              name="Derived Column"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\CountryWiseLatest\Derived Column.Inputs[Derived Column Input]"
+                  description="Input to the Derived Column Transformation"
+                  name="Derived Column Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\CountryWiseLatest\Derived Column.Inputs[Derived Column Input].Columns[Deaths_100_Recovered]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Deaths_100_Recovered"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\CountryWiseLatest\Flat File Source.Outputs[Flat File Source Output].Columns[Deaths_100_Recovered]"
+                      truncationRowDisposition="FailComponent"
+                      usageType="readWrite">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">([TRIM](#{Package\CountryWiseLatest\Flat File Source.Outputs[Flat File Source Output].Columns[Deaths_100_Recovered]}) == "" || [UPPER]([TRIM](#{Package\CountryWiseLatest\Flat File Source.Outputs[Flat File Source Output].Columns[Deaths_100_Recovered]})) == "INF" || [TRIM](#{Package\CountryWiseLatest\Flat File Source.Outputs[Flat File Source Output].Columns[Deaths_100_Recovered]}) == "N/A" || [TRIM](#{Package\CountryWiseLatest\Flat File Source.Outputs[Flat File Source Output].Columns[Deaths_100_Recovered]}) == "-") ? NULL(DT_R8) : (DT_R8)[REPLACE](#{Package\CountryWiseLatest\Flat File Source.Outputs[Flat File Source Output].Columns[Deaths_100_Recovered]},",","")</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">(TRIM(Deaths_100_Recovered) == "" || UPPER(TRIM(Deaths_100_Recovered)) == "INF" || TRIM(Deaths_100_Recovered) == "N/A" || TRIM(Deaths_100_Recovered) == "-") ? NULL(DT_R8) : (DT_R8)REPLACE(Deaths_100_Recovered,",","")</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\CountryWiseLatest\Derived Column.Outputs[Derived Column Output]"
+                  description="Default Output of the Derived Column Transformation"
+                  exclusionGroup="1"
+                  name="Derived Column Output"
+                  synchronousInputId="Package\CountryWiseLatest\Derived Column.Inputs[Derived Column Input]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\CountryWiseLatest\Derived Column.Outputs[Derived Column Error Output]"
+                  description="Error Output of the Derived Column Transformation"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Derived Column Error Output"
+                  synchronousInputId="Package\CountryWiseLatest\Derived Column.Inputs[Derived Column Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\CountryWiseLatest\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\CountryWiseLatest\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\CountryWiseLatest\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\CountryWiseLatest\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\CountryWiseLatest\Flat File Destination"
+              componentClassID="Microsoft.FlatFileDestination"
+              contactInfo="Flat File Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Flat File Destination"
+              localeId="1033"
+              name="Flat File Destination"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Specifies whether the data will overwrite or append to the destination file."
+                  name="Overwrite">true</property>
+                <property
+                  dataType="System.Null"
+                  description="Specifies the text to write to the destination file before any data is written."
+                  expressionType="Notify"
+                  name="Header" />
+                <property
+                  dataType="System.Boolean"
+                  description="When text qualifier is enabled, specifies whether the text qualifier in the data written to the destination file will be escaped or not."
+                  name="EscapeQualifier">false</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\CountryWiseLatest\Flat File Destination.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[Flat File Connection Manager]"
+                  connectionManagerRefId="Package.ConnectionManagers[Flat File Connection Manager]"
+                  name="FlatFileConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\CountryWiseLatest\Flat File Destination.Inputs[Flat File Destination Input]"
+                  hasSideEffects="true"
+                  name="Flat File Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\CountryWiseLatest\Flat File Destination.Inputs[Flat File Destination Input].Columns[Country]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Country"
+                      externalMetadataColumnId="Package\CountryWiseLatest\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Country]"
+                      lineageId="Package\CountryWiseLatest\Flat File Source.Outputs[Flat File Source Output].Columns[Country]" />
+                    <inputColumn
+                      refId="Package\CountryWiseLatest\Flat File Destination.Inputs[Flat File Destination Input].Columns[Confirmed]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Confirmed"
+                      externalMetadataColumnId="Package\CountryWiseLatest\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Confirmed]"
+                      lineageId="Package\CountryWiseLatest\Flat File Source.Outputs[Flat File Source Output].Columns[Confirmed]" />
+                    <inputColumn
+                      refId="Package\CountryWiseLatest\Flat File Destination.Inputs[Flat File Destination Input].Columns[Deaths]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Deaths"
+                      externalMetadataColumnId="Package\CountryWiseLatest\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Deaths]"
+                      lineageId="Package\CountryWiseLatest\Flat File Source.Outputs[Flat File Source Output].Columns[Deaths]" />
+                    <inputColumn
+                      refId="Package\CountryWiseLatest\Flat File Destination.Inputs[Flat File Destination Input].Columns[Recovered]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Recovered"
+                      externalMetadataColumnId="Package\CountryWiseLatest\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Recovered]"
+                      lineageId="Package\CountryWiseLatest\Flat File Source.Outputs[Flat File Source Output].Columns[Recovered]" />
+                    <inputColumn
+                      refId="Package\CountryWiseLatest\Flat File Destination.Inputs[Flat File Destination Input].Columns[Active]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Active"
+                      externalMetadataColumnId="Package\CountryWiseLatest\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Active]"
+                      lineageId="Package\CountryWiseLatest\Flat File Source.Outputs[Flat File Source Output].Columns[Active]" />
+                    <inputColumn
+                      refId="Package\CountryWiseLatest\Flat File Destination.Inputs[Flat File Destination Input].Columns[New_cases]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="New_cases"
+                      externalMetadataColumnId="Package\CountryWiseLatest\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[New_cases]"
+                      lineageId="Package\CountryWiseLatest\Flat File Source.Outputs[Flat File Source Output].Columns[New_cases]" />
+                    <inputColumn
+                      refId="Package\CountryWiseLatest\Flat File Destination.Inputs[Flat File Destination Input].Columns[New_deaths]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="New_deaths"
+                      externalMetadataColumnId="Package\CountryWiseLatest\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[New_deaths]"
+                      lineageId="Package\CountryWiseLatest\Flat File Source.Outputs[Flat File Source Output].Columns[New_deaths]" />
+                    <inputColumn
+                      refId="Package\CountryWiseLatest\Flat File Destination.Inputs[Flat File Destination Input].Columns[New_recovered]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="New_recovered"
+                      externalMetadataColumnId="Package\CountryWiseLatest\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[New_recovered]"
+                      lineageId="Package\CountryWiseLatest\Flat File Source.Outputs[Flat File Source Output].Columns[New_recovered]" />
+                    <inputColumn
+                      refId="Package\CountryWiseLatest\Flat File Destination.Inputs[Flat File Destination Input].Columns[Death]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Death"
+                      externalMetadataColumnId="Package\CountryWiseLatest\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Death]"
+                      lineageId="Package\CountryWiseLatest\Flat File Source.Outputs[Flat File Source Output].Columns[Death]" />
+                    <inputColumn
+                      refId="Package\CountryWiseLatest\Flat File Destination.Inputs[Flat File Destination Input].Columns[Recovered_100_cases]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Recovered_100_cases"
+                      externalMetadataColumnId="Package\CountryWiseLatest\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Recovered_100_cases]"
+                      lineageId="Package\CountryWiseLatest\Flat File Source.Outputs[Flat File Source Output].Columns[Recovered_100_cases]" />
+                    <inputColumn
+                      refId="Package\CountryWiseLatest\Flat File Destination.Inputs[Flat File Destination Input].Columns[Deaths_100_Recovered]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Deaths_100_Recovered"
+                      externalMetadataColumnId="Package\CountryWiseLatest\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Deaths_100_Recovered]"
+                      lineageId="Package\CountryWiseLatest\Flat File Source.Outputs[Flat File Source Output].Columns[Deaths_100_Recovered]" />
+                    <inputColumn
+                      refId="Package\CountryWiseLatest\Flat File Destination.Inputs[Flat File Destination Input].Columns[Confirmed_last_week]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Confirmed_last_week"
+                      externalMetadataColumnId="Package\CountryWiseLatest\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Confirmed_last_week]"
+                      lineageId="Package\CountryWiseLatest\Flat File Source.Outputs[Flat File Source Output].Columns[Confirmed_last_week]" />
+                    <inputColumn
+                      refId="Package\CountryWiseLatest\Flat File Destination.Inputs[Flat File Destination Input].Columns[1_week_change]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="1_week_change"
+                      externalMetadataColumnId="Package\CountryWiseLatest\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[1_week_change]"
+                      lineageId="Package\CountryWiseLatest\Flat File Source.Outputs[Flat File Source Output].Columns[1_week_change]" />
+                    <inputColumn
+                      refId="Package\CountryWiseLatest\Flat File Destination.Inputs[Flat File Destination Input].Columns[1_week%_increase]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="1_week%_increase"
+                      externalMetadataColumnId="Package\CountryWiseLatest\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[1_week%_increase]"
+                      lineageId="Package\CountryWiseLatest\Flat File Source.Outputs[Flat File Source Output].Columns[1_week%_increase]" />
+                    <inputColumn
+                      refId="Package\CountryWiseLatest\Flat File Destination.Inputs[Flat File Destination Input].Columns[WHO_Region]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="WHO_Region"
+                      externalMetadataColumnId="Package\CountryWiseLatest\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[WHO_Region]"
+                      lineageId="Package\CountryWiseLatest\Flat File Source.Outputs[Flat File Source Output].Columns[WHO_Region]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\CountryWiseLatest\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Country]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Country" />
+                    <externalMetadataColumn
+                      refId="Package\CountryWiseLatest\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Confirmed]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Confirmed" />
+                    <externalMetadataColumn
+                      refId="Package\CountryWiseLatest\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Deaths]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Deaths" />
+                    <externalMetadataColumn
+                      refId="Package\CountryWiseLatest\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Recovered]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Recovered" />
+                    <externalMetadataColumn
+                      refId="Package\CountryWiseLatest\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Active]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Active" />
+                    <externalMetadataColumn
+                      refId="Package\CountryWiseLatest\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[New_cases]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="New_cases" />
+                    <externalMetadataColumn
+                      refId="Package\CountryWiseLatest\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[New_deaths]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="New_deaths" />
+                    <externalMetadataColumn
+                      refId="Package\CountryWiseLatest\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[New_recovered]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="New_recovered" />
+                    <externalMetadataColumn
+                      refId="Package\CountryWiseLatest\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Death]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Death" />
+                    <externalMetadataColumn
+                      refId="Package\CountryWiseLatest\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Recovered_100_cases]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Recovered_100_cases" />
+                    <externalMetadataColumn
+                      refId="Package\CountryWiseLatest\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Deaths_100_Recovered]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Deaths_100_Recovered" />
+                    <externalMetadataColumn
+                      refId="Package\CountryWiseLatest\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Confirmed_last_week]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Confirmed_last_week" />
+                    <externalMetadataColumn
+                      refId="Package\CountryWiseLatest\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[1_week_change]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="1_week_change" />
+                    <externalMetadataColumn
+                      refId="Package\CountryWiseLatest\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[1_week%_increase]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="1_week%_increase" />
+                    <externalMetadataColumn
+                      refId="Package\CountryWiseLatest\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[WHO_Region]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="WHO_Region" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+            </component>
+            <component
               refId="Package\CountryWiseLatest\Flat File Source"
               componentClassID="Microsoft.FlatFileSource"
               contactInfo="Flat File Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
@@ -666,8 +994,8 @@
               <connections>
                 <connection
                   refId="Package\CountryWiseLatest\Flat File Source.Connections[FlatFileConnection]"
-                  connectionManagerID="Package.ConnectionManagers[CoutnryWiseLatest]"
-                  connectionManagerRefId="Package.ConnectionManagers[CoutnryWiseLatest]"
+                  connectionManagerID="Package.ConnectionManagers[Flat File Connection Manager]"
+                  connectionManagerRefId="Package.ConnectionManagers[Flat File Connection Manager]"
                   name="FlatFileConnection" />
               </connections>
               <outputs>
@@ -900,7 +1228,7 @@
                       codePage="1252"
                       dataType="str"
                       errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
+                      errorRowDisposition="RedirectRow"
                       externalMetadataColumnId="Package\CountryWiseLatest\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Deaths_100_Recovered]"
                       length="50"
                       lineageId="Package\CountryWiseLatest\Flat File Source.Outputs[Flat File Source Output].Columns[Deaths_100_Recovered]"
@@ -1132,503 +1460,25 @@
           </components>
           <paths>
             <path
-              refId="Package\CountryWiseLatest.Paths[Flat File Source Output]"
+              refId="Package\CountryWiseLatest.Paths[ADO NET Destination Error Output]"
+              endId="Package\CountryWiseLatest\Flat File Destination.Inputs[Flat File Destination Input]"
+              name="ADO NET Destination Error Output"
+              startId="Package\CountryWiseLatest\ADO NET Destination.Outputs[ADO NET Destination Error Output]" />
+            <path
+              refId="Package\CountryWiseLatest.Paths[Conditional Split Default Output]"
               endId="Package\CountryWiseLatest\ADO NET Destination.Inputs[ADO NET Destination Input]"
+              name="Conditional Split Default Output"
+              startId="Package\CountryWiseLatest\Conditional Split.Outputs[Conditional Split Default Output]" />
+            <path
+              refId="Package\CountryWiseLatest.Paths[Derived Column Output]"
+              endId="Package\CountryWiseLatest\Conditional Split.Inputs[Conditional Split Input]"
+              name="Derived Column Output"
+              startId="Package\CountryWiseLatest\Derived Column.Outputs[Derived Column Output]" />
+            <path
+              refId="Package\CountryWiseLatest.Paths[Flat File Source Output]"
+              endId="Package\CountryWiseLatest\Derived Column.Inputs[Derived Column Input]"
               name="Flat File Source Output"
               startId="Package\CountryWiseLatest\Flat File Source.Outputs[Flat File Source Output]" />
-          </paths>
-        </pipeline>
-      </DTS:ObjectData>
-    </DTS:Executable>
-    <DTS:Executable
-      DTS:refId="Package\WHOGlobalDailyData"
-      DTS:CreationName="Microsoft.Pipeline"
-      DTS:Description="Data Flow Task"
-      DTS:DTSID="{3FA1FF3E-2135-44E0-B677-46EB73566492}"
-      DTS:ExecutableType="Microsoft.Pipeline"
-      DTS:LocaleID="-1"
-      DTS:ObjectName="WHOGlobalDailyData"
-      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
-      <DTS:Variables />
-      <DTS:ObjectData>
-        <pipeline
-          version="1">
-          <components>
-            <component
-              refId="Package\WHOGlobalDailyData\ADO NET Destination"
-              componentClassID="Microsoft.ManagedComponentHost"
-              contactInfo="Loads data into an ADO.NET-compliant database that uses a database table or view. Load data into a new or existing table. For example, use an ADO.NET provider for ODBC to load data into an ODBC destination.;Microsoft Corporation; Microsoft SQL Server; © Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;2"
-              description="Loads data into an ADO.NET-compliant database that uses a database table or view. Load data into a new or existing table. For example, use an ADO.NET provider for ODBC to load data into an ODBC destination."
-              name="ADO NET Destination"
-              usesDispositions="true"
-              version="2">
-              <properties>
-                <property
-                  dataType="System.String"
-                  description="The Destination database table name."
-                  expressionType="Notify"
-                  name="TableOrViewName"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">"dbo"."WHODailyData"</property>
-                <property
-                  dataType="System.Int32"
-                  description="Specify the number of rows per batch. The default is 0 which uses the same size as SSIS internal buffer. "
-                  expressionType="Notify"
-                  name="BatchSize">0</property>
-                <property
-                  dataType="System.Int32"
-                  description="The number of seconds before a command times out. A value of 0 indicates infinite time-out. "
-                  expressionType="Notify"
-                  name="CommandTimeout">30</property>
-                <property
-                  dataType="System.Boolean"
-                  description="Specifies whether to use the SqlBulkCopy interface to improve the performance of bulk insert operations. Only certain providers support this interface."
-                  expressionType="Notify"
-                  name="UseBulkInsertWhenPossible">true</property>
-                <property
-                  dataType="System.String"
-                  name="UserComponentTypeName">Microsoft.ADONETDestination</property>
-              </properties>
-              <connections>
-                <connection
-                  refId="Package\WHOGlobalDailyData\ADO NET Destination.Connections[IDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[(localdb)\MSSQLLocalDB.BI_Workflow_Covid]"
-                  connectionManagerRefId="Package.ConnectionManagers[(localdb)\MSSQLLocalDB.BI_Workflow_Covid]"
-                  description="Managed connection manager"
-                  name="IDbConnection" />
-              </connections>
-              <inputs>
-                <input
-                  refId="Package\WHOGlobalDailyData\ADO NET Destination.Inputs[ADO NET Destination Input]"
-                  errorRowDisposition="FailComponent"
-                  hasSideEffects="true"
-                  name="ADO NET Destination Input">
-                  <inputColumns>
-                    <inputColumn
-                      refId="Package\WHOGlobalDailyData\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[Country]"
-                      cachedCodepage="65001"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="Country"
-                      externalMetadataColumnId="Package\WHOGlobalDailyData\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[Country]"
-                      lineageId="Package\WHOGlobalDailyData\Flat File Source.Outputs[Flat File Source Output].Columns[Country]" />
-                    <inputColumn
-                      refId="Package\WHOGlobalDailyData\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[Date_reported]"
-                      cachedCodepage="65001"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="Date_reported"
-                      externalMetadataColumnId="Package\WHOGlobalDailyData\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[DateReported]"
-                      lineageId="Package\WHOGlobalDailyData\Flat File Source.Outputs[Flat File Source Output].Columns[Date_reported]" />
-                    <inputColumn
-                      refId="Package\WHOGlobalDailyData\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[Country_code]"
-                      cachedCodepage="65001"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="Country_code"
-                      externalMetadataColumnId="Package\WHOGlobalDailyData\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[CountryCode]"
-                      lineageId="Package\WHOGlobalDailyData\Flat File Source.Outputs[Flat File Source Output].Columns[Country_code]" />
-                    <inputColumn
-                      refId="Package\WHOGlobalDailyData\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[WHO_region]"
-                      cachedCodepage="65001"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="WHO_region"
-                      externalMetadataColumnId="Package\WHOGlobalDailyData\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[WHORegion]"
-                      lineageId="Package\WHOGlobalDailyData\Flat File Source.Outputs[Flat File Source Output].Columns[WHO_region]" />
-                    <inputColumn
-                      refId="Package\WHOGlobalDailyData\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[New_cases]"
-                      cachedCodepage="65001"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="New_cases"
-                      externalMetadataColumnId="Package\WHOGlobalDailyData\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[NewCases]"
-                      lineageId="Package\WHOGlobalDailyData\Flat File Source.Outputs[Flat File Source Output].Columns[New_cases]" />
-                    <inputColumn
-                      refId="Package\WHOGlobalDailyData\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[Cumulative_cases]"
-                      cachedCodepage="65001"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="Cumulative_cases"
-                      externalMetadataColumnId="Package\WHOGlobalDailyData\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[CumulativeCases]"
-                      lineageId="Package\WHOGlobalDailyData\Flat File Source.Outputs[Flat File Source Output].Columns[Cumulative_cases]" />
-                    <inputColumn
-                      refId="Package\WHOGlobalDailyData\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[New_deaths]"
-                      cachedCodepage="65001"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="New_deaths"
-                      externalMetadataColumnId="Package\WHOGlobalDailyData\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[NewDeaths]"
-                      lineageId="Package\WHOGlobalDailyData\Flat File Source.Outputs[Flat File Source Output].Columns[New_deaths]" />
-                    <inputColumn
-                      refId="Package\WHOGlobalDailyData\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[Cumulative_deaths]"
-                      cachedCodepage="65001"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="Cumulative_deaths"
-                      externalMetadataColumnId="Package\WHOGlobalDailyData\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[CumulativeDeaths]"
-                      lineageId="Package\WHOGlobalDailyData\Flat File Source.Outputs[Flat File Source Output].Columns[Cumulative_deaths]" />
-                  </inputColumns>
-                  <externalMetadataColumns
-                    isUsed="True">
-                    <externalMetadataColumn
-                      refId="Package\WHOGlobalDailyData\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[DateReported]"
-                      dataType="dbTimeStamp"
-                      name="DateReported" />
-                    <externalMetadataColumn
-                      refId="Package\WHOGlobalDailyData\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[CountryCode]"
-                      dataType="wstr"
-                      length="10"
-                      name="CountryCode" />
-                    <externalMetadataColumn
-                      refId="Package\WHOGlobalDailyData\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[Country]"
-                      dataType="wstr"
-                      length="100"
-                      name="Country" />
-                    <externalMetadataColumn
-                      refId="Package\WHOGlobalDailyData\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[WHORegion]"
-                      dataType="wstr"
-                      length="50"
-                      name="WHORegion" />
-                    <externalMetadataColumn
-                      refId="Package\WHOGlobalDailyData\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[NewCases]"
-                      dataType="i4"
-                      name="NewCases" />
-                    <externalMetadataColumn
-                      refId="Package\WHOGlobalDailyData\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[CumulativeCases]"
-                      dataType="i4"
-                      name="CumulativeCases" />
-                    <externalMetadataColumn
-                      refId="Package\WHOGlobalDailyData\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[NewDeaths]"
-                      dataType="i4"
-                      name="NewDeaths" />
-                    <externalMetadataColumn
-                      refId="Package\WHOGlobalDailyData\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[CumulativeDeaths]"
-                      dataType="i4"
-                      name="CumulativeDeaths" />
-                  </externalMetadataColumns>
-                </input>
-              </inputs>
-              <outputs>
-                <output
-                  refId="Package\WHOGlobalDailyData\ADO NET Destination.Outputs[ADO NET Destination Error Output]"
-                  exclusionGroup="1"
-                  isErrorOut="true"
-                  name="ADO NET Destination Error Output"
-                  synchronousInputId="Package\WHOGlobalDailyData\ADO NET Destination.Inputs[ADO NET Destination Input]">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\WHOGlobalDailyData\ADO NET Destination.Outputs[ADO NET Destination Error Output].Columns[ErrorCode]"
-                      dataType="i4"
-                      lineageId="Package\WHOGlobalDailyData\ADO NET Destination.Outputs[ADO NET Destination Error Output].Columns[ErrorCode]"
-                      name="ErrorCode"
-                      specialFlags="1" />
-                    <outputColumn
-                      refId="Package\WHOGlobalDailyData\ADO NET Destination.Outputs[ADO NET Destination Error Output].Columns[ErrorColumn]"
-                      dataType="i4"
-                      lineageId="Package\WHOGlobalDailyData\ADO NET Destination.Outputs[ADO NET Destination Error Output].Columns[ErrorColumn]"
-                      name="ErrorColumn"
-                      specialFlags="2" />
-                  </outputColumns>
-                  <externalMetadataColumns />
-                </output>
-              </outputs>
-            </component>
-            <component
-              refId="Package\WHOGlobalDailyData\Flat File Source"
-              componentClassID="Microsoft.FlatFileSource"
-              contactInfo="Flat File Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
-              description="Flat File Source"
-              localeId="1033"
-              name="Flat File Source"
-              usesDispositions="true"
-              version="1">
-              <properties>
-                <property
-                  dataType="System.Boolean"
-                  description="Specifies whether zero-length columns are treated as null."
-                  name="RetainNulls">false</property>
-                <property
-                  dataType="System.String"
-                  description="Specifies the name of an output column containing the file name. If no name is specified, no output column containing the file name will be generated."
-                  name="FileNameColumnName"></property>
-              </properties>
-              <connections>
-                <connection
-                  refId="Package\WHOGlobalDailyData\Flat File Source.Connections[FlatFileConnection]"
-                  connectionManagerID="Package.ConnectionManagers[WHOGlobalDailyData]"
-                  connectionManagerRefId="Package.ConnectionManagers[WHOGlobalDailyData]"
-                  name="FlatFileConnection" />
-              </connections>
-              <outputs>
-                <output
-                  refId="Package\WHOGlobalDailyData\Flat File Source.Outputs[Flat File Source Output]"
-                  name="Flat File Source Output">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\WHOGlobalDailyData\Flat File Source.Outputs[Flat File Source Output].Columns[Date_reported]"
-                      codePage="65001"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\WHOGlobalDailyData\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Date_reported]"
-                      length="50"
-                      lineageId="Package\WHOGlobalDailyData\Flat File Source.Outputs[Flat File Source Output].Columns[Date_reported]"
-                      name="Date_reported"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\WHOGlobalDailyData\Flat File Source.Outputs[Flat File Source Output].Columns[Country_code]"
-                      codePage="65001"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\WHOGlobalDailyData\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Country_code]"
-                      length="50"
-                      lineageId="Package\WHOGlobalDailyData\Flat File Source.Outputs[Flat File Source Output].Columns[Country_code]"
-                      name="Country_code"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\WHOGlobalDailyData\Flat File Source.Outputs[Flat File Source Output].Columns[Country]"
-                      codePage="65001"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\WHOGlobalDailyData\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Country]"
-                      length="50"
-                      lineageId="Package\WHOGlobalDailyData\Flat File Source.Outputs[Flat File Source Output].Columns[Country]"
-                      name="Country"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\WHOGlobalDailyData\Flat File Source.Outputs[Flat File Source Output].Columns[WHO_region]"
-                      codePage="65001"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\WHOGlobalDailyData\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[WHO_region]"
-                      length="50"
-                      lineageId="Package\WHOGlobalDailyData\Flat File Source.Outputs[Flat File Source Output].Columns[WHO_region]"
-                      name="WHO_region"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\WHOGlobalDailyData\Flat File Source.Outputs[Flat File Source Output].Columns[New_cases]"
-                      codePage="65001"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\WHOGlobalDailyData\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[New_cases]"
-                      length="50"
-                      lineageId="Package\WHOGlobalDailyData\Flat File Source.Outputs[Flat File Source Output].Columns[New_cases]"
-                      name="New_cases"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\WHOGlobalDailyData\Flat File Source.Outputs[Flat File Source Output].Columns[Cumulative_cases]"
-                      codePage="65001"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\WHOGlobalDailyData\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Cumulative_cases]"
-                      length="50"
-                      lineageId="Package\WHOGlobalDailyData\Flat File Source.Outputs[Flat File Source Output].Columns[Cumulative_cases]"
-                      name="Cumulative_cases"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\WHOGlobalDailyData\Flat File Source.Outputs[Flat File Source Output].Columns[New_deaths]"
-                      codePage="65001"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\WHOGlobalDailyData\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[New_deaths]"
-                      length="50"
-                      lineageId="Package\WHOGlobalDailyData\Flat File Source.Outputs[Flat File Source Output].Columns[New_deaths]"
-                      name="New_deaths"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\WHOGlobalDailyData\Flat File Source.Outputs[Flat File Source Output].Columns[Cumulative_deaths]"
-                      codePage="65001"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\WHOGlobalDailyData\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Cumulative_deaths]"
-                      length="50"
-                      lineageId="Package\WHOGlobalDailyData\Flat File Source.Outputs[Flat File Source Output].Columns[Cumulative_deaths]"
-                      name="Cumulative_deaths"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                  </outputColumns>
-                  <externalMetadataColumns
-                    isUsed="True">
-                    <externalMetadataColumn
-                      refId="Package\WHOGlobalDailyData\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Date_reported]"
-                      codePage="65001"
-                      dataType="str"
-                      length="50"
-                      name="Date_reported" />
-                    <externalMetadataColumn
-                      refId="Package\WHOGlobalDailyData\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Country_code]"
-                      codePage="65001"
-                      dataType="str"
-                      length="50"
-                      name="Country_code" />
-                    <externalMetadataColumn
-                      refId="Package\WHOGlobalDailyData\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Country]"
-                      codePage="65001"
-                      dataType="str"
-                      length="50"
-                      name="Country" />
-                    <externalMetadataColumn
-                      refId="Package\WHOGlobalDailyData\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[WHO_region]"
-                      codePage="65001"
-                      dataType="str"
-                      length="50"
-                      name="WHO_region" />
-                    <externalMetadataColumn
-                      refId="Package\WHOGlobalDailyData\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[New_cases]"
-                      codePage="65001"
-                      dataType="str"
-                      length="50"
-                      name="New_cases" />
-                    <externalMetadataColumn
-                      refId="Package\WHOGlobalDailyData\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Cumulative_cases]"
-                      codePage="65001"
-                      dataType="str"
-                      length="50"
-                      name="Cumulative_cases" />
-                    <externalMetadataColumn
-                      refId="Package\WHOGlobalDailyData\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[New_deaths]"
-                      codePage="65001"
-                      dataType="str"
-                      length="50"
-                      name="New_deaths" />
-                    <externalMetadataColumn
-                      refId="Package\WHOGlobalDailyData\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Cumulative_deaths]"
-                      codePage="65001"
-                      dataType="str"
-                      length="50"
-                      name="Cumulative_deaths" />
-                  </externalMetadataColumns>
-                </output>
-                <output
-                  refId="Package\WHOGlobalDailyData\Flat File Source.Outputs[Flat File Source Error Output]"
-                  isErrorOut="true"
-                  name="Flat File Source Error Output">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\WHOGlobalDailyData\Flat File Source.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
-                      codePage="65001"
-                      dataType="text"
-                      description="Flat File Source Error Output Column"
-                      lineageId="Package\WHOGlobalDailyData\Flat File Source.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
-                      name="Flat File Source Error Output Column" />
-                    <outputColumn
-                      refId="Package\WHOGlobalDailyData\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
-                      dataType="i4"
-                      lineageId="Package\WHOGlobalDailyData\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
-                      name="ErrorCode"
-                      specialFlags="1" />
-                    <outputColumn
-                      refId="Package\WHOGlobalDailyData\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
-                      dataType="i4"
-                      lineageId="Package\WHOGlobalDailyData\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
-                      name="ErrorColumn"
-                      specialFlags="2" />
-                  </outputColumns>
-                  <externalMetadataColumns />
-                </output>
-              </outputs>
-            </component>
-          </components>
-          <paths>
-            <path
-              refId="Package\WHOGlobalDailyData.Paths[Flat File Source Output]"
-              endId="Package\WHOGlobalDailyData\ADO NET Destination.Inputs[ADO NET Destination Input]"
-              name="Flat File Source Output"
-              startId="Package\WHOGlobalDailyData\Flat File Source.Outputs[Flat File Source Output]" />
           </paths>
         </pipeline>
       </DTS:ObjectData>
@@ -1695,72 +1545,6 @@
                   errorRowDisposition="FailComponent"
                   hasSideEffects="true"
                   name="ADO NET Destination Input">
-                  <inputColumns>
-                    <inputColumn
-                      refId="Package\WHOGlobalData\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[Country]"
-                      cachedCodepage="65001"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="Country"
-                      externalMetadataColumnId="Package\WHOGlobalData\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[Country]"
-                      lineageId="Package\WHOGlobalData\Flat File Source.Outputs[Flat File Source Output].Columns[Country]" />
-                    <inputColumn
-                      refId="Package\WHOGlobalData\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[Date_reported]"
-                      cachedCodepage="65001"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="Date_reported"
-                      externalMetadataColumnId="Package\WHOGlobalData\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[DateReported]"
-                      lineageId="Package\WHOGlobalData\Flat File Source.Outputs[Flat File Source Output].Columns[Date_reported]" />
-                    <inputColumn
-                      refId="Package\WHOGlobalData\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[Country_code]"
-                      cachedCodepage="65001"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="Country_code"
-                      externalMetadataColumnId="Package\WHOGlobalData\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[CountryCode]"
-                      lineageId="Package\WHOGlobalData\Flat File Source.Outputs[Flat File Source Output].Columns[Country_code]" />
-                    <inputColumn
-                      refId="Package\WHOGlobalData\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[WHO_region]"
-                      cachedCodepage="65001"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="WHO_region"
-                      externalMetadataColumnId="Package\WHOGlobalData\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[WHORegion]"
-                      lineageId="Package\WHOGlobalData\Flat File Source.Outputs[Flat File Source Output].Columns[WHO_region]" />
-                    <inputColumn
-                      refId="Package\WHOGlobalData\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[New_cases]"
-                      cachedCodepage="65001"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="New_cases"
-                      externalMetadataColumnId="Package\WHOGlobalData\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[NewCases]"
-                      lineageId="Package\WHOGlobalData\Flat File Source.Outputs[Flat File Source Output].Columns[New_cases]" />
-                    <inputColumn
-                      refId="Package\WHOGlobalData\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[Cumulative_cases]"
-                      cachedCodepage="65001"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="Cumulative_cases"
-                      externalMetadataColumnId="Package\WHOGlobalData\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[CumulativeCases]"
-                      lineageId="Package\WHOGlobalData\Flat File Source.Outputs[Flat File Source Output].Columns[Cumulative_cases]" />
-                    <inputColumn
-                      refId="Package\WHOGlobalData\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[New_deaths]"
-                      cachedCodepage="65001"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="New_deaths"
-                      externalMetadataColumnId="Package\WHOGlobalData\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[NewDeaths]"
-                      lineageId="Package\WHOGlobalData\Flat File Source.Outputs[Flat File Source Output].Columns[New_deaths]" />
-                    <inputColumn
-                      refId="Package\WHOGlobalData\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[Cumulative_deaths]"
-                      cachedCodepage="65001"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="Cumulative_deaths"
-                      externalMetadataColumnId="Package\WHOGlobalData\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[CumulativeDeaths]"
-                      lineageId="Package\WHOGlobalData\Flat File Source.Outputs[Flat File Source Output].Columns[Cumulative_deaths]" />
-                  </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
@@ -1832,261 +1616,6 @@
               </outputs>
             </component>
             <component
-              refId="Package\WHOGlobalData\Data Conversion"
-              componentClassID="Microsoft.DataConvert"
-              contactInfo="Data Conversion;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
-              description="Data Conversion"
-              name="Data Conversion"
-              usesDispositions="true">
-              <inputs>
-                <input
-                  refId="Package\WHOGlobalData\Data Conversion.Inputs[Data Conversion Input]"
-                  name="Data Conversion Input">
-                  <inputColumns>
-                    <inputColumn
-                      refId="Package\WHOGlobalData\Data Conversion.Inputs[Data Conversion Input].Columns[New_cases]"
-                      cachedCodepage="65001"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="New_cases"
-                      lineageId="Package\WHOGlobalData\Flat File Source.Outputs[Flat File Source Output].Columns[New_cases]" />
-                    <inputColumn
-                      refId="Package\WHOGlobalData\Data Conversion.Inputs[Data Conversion Input].Columns[Date_reported]"
-                      cachedCodepage="65001"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="Date_reported"
-                      lineageId="Package\WHOGlobalData\Flat File Source.Outputs[Flat File Source Output].Columns[Date_reported]" />
-                  </inputColumns>
-                  <externalMetadataColumns />
-                </input>
-              </inputs>
-              <outputs>
-                <output
-                  refId="Package\WHOGlobalData\Data Conversion.Outputs[Data Conversion Output]"
-                  exclusionGroup="1"
-                  name="Data Conversion Output"
-                  synchronousInputId="Package\WHOGlobalData\Data Conversion.Inputs[Data Conversion Input]">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\WHOGlobalData\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of New_cases]"
-                      dataType="i4"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      lineageId="Package\WHOGlobalData\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of New_cases]"
-                      name="Copy of New_cases"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\WHOGlobalData\Flat File Source.Outputs[Flat File Source Output].Columns[New_cases]}</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\WHOGlobalData\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of Date_reported]"
-                      dataType="date"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      lineageId="Package\WHOGlobalData\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of Date_reported]"
-                      name="Copy of Date_reported"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\WHOGlobalData\Flat File Source.Outputs[Flat File Source Output].Columns[Date_reported]}</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                      </properties>
-                    </outputColumn>
-                  </outputColumns>
-                  <externalMetadataColumns />
-                </output>
-                <output
-                  refId="Package\WHOGlobalData\Data Conversion.Outputs[Data Conversion Error Output]"
-                  exclusionGroup="1"
-                  isErrorOut="true"
-                  name="Data Conversion Error Output"
-                  synchronousInputId="Package\WHOGlobalData\Data Conversion.Inputs[Data Conversion Input]">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\WHOGlobalData\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorCode]"
-                      dataType="i4"
-                      lineageId="Package\WHOGlobalData\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorCode]"
-                      name="ErrorCode"
-                      specialFlags="1" />
-                    <outputColumn
-                      refId="Package\WHOGlobalData\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
-                      dataType="i4"
-                      lineageId="Package\WHOGlobalData\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
-                      name="ErrorColumn"
-                      specialFlags="2" />
-                  </outputColumns>
-                  <externalMetadataColumns />
-                </output>
-              </outputs>
-            </component>
-            <component
-              refId="Package\WHOGlobalData\Derived Column"
-              componentClassID="Microsoft.DerivedColumn"
-              contactInfo="Derived Column;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
-              description="Creates new column values by applying expressions to transformation input columns. Create new columns or overwrite existing ones. For example, concatenate the values from the 'first name' and 'last name' column to make a 'full name' column."
-              name="Derived Column"
-              usesDispositions="true">
-              <inputs>
-                <input
-                  refId="Package\WHOGlobalData\Derived Column.Inputs[Derived Column Input]"
-                  description="Input to the Derived Column Transformation"
-                  name="Derived Column Input">
-                  <inputColumns>
-                    <inputColumn
-                      refId="Package\WHOGlobalData\Derived Column.Inputs[Derived Column Input].Columns[New_cases]"
-                      cachedCodepage="65001"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="New_cases"
-                      errorOrTruncationOperation="Computation"
-                      errorRowDisposition="FailComponent"
-                      lineageId="Package\WHOGlobalData\Flat File Source.Outputs[Flat File Source Output].Columns[New_cases]"
-                      truncationRowDisposition="FailComponent"
-                      usageType="readWrite">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.String"
-                          description="Derived Column Expression"
-                          name="Expression">([ISNULL](#{Package\WHOGlobalData\Flat File Source.Outputs[Flat File Source Output].Columns[New_cases]}) || [LEN]([TRIM](#{Package\WHOGlobalData\Flat File Source.Outputs[Flat File Source Output].Columns[New_cases]})) == 0) ? 0 : (DT_I4)[REPLACE]([TRIM](#{Package\WHOGlobalData\Flat File Source.Outputs[Flat File Source Output].Columns[New_cases]}),",","")</property>
-                        <property
-                          containsID="true"
-                          dataType="System.String"
-                          description="Derived Column Friendly Expression"
-                          expressionType="Notify"
-                          name="FriendlyExpression">(ISNULL(New_cases) || LEN(TRIM(New_cases)) == 0) ? 0 : (DT_I4)REPLACE(TRIM(New_cases),",","")</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\WHOGlobalData\Derived Column.Inputs[Derived Column Input].Columns[Country]"
-                      cachedCodepage="65001"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="Country"
-                      errorOrTruncationOperation="Computation"
-                      errorRowDisposition="FailComponent"
-                      lineageId="Package\WHOGlobalData\Flat File Source.Outputs[Flat File Source Output].Columns[Country]"
-                      truncationRowDisposition="FailComponent"
-                      usageType="readWrite">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.String"
-                          description="Derived Column Expression"
-                          name="Expression">[UPPER]([TRIM](#{Package\WHOGlobalData\Flat File Source.Outputs[Flat File Source Output].Columns[Country]}))</property>
-                        <property
-                          containsID="true"
-                          dataType="System.String"
-                          description="Derived Column Friendly Expression"
-                          expressionType="Notify"
-                          name="FriendlyExpression">UPPER(TRIM(Country))</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\WHOGlobalData\Derived Column.Inputs[Derived Column Input].Columns[WHO_region]"
-                      cachedCodepage="65001"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="WHO_region"
-                      errorOrTruncationOperation="Computation"
-                      errorRowDisposition="FailComponent"
-                      lineageId="Package\WHOGlobalData\Flat File Source.Outputs[Flat File Source Output].Columns[WHO_region]"
-                      truncationRowDisposition="FailComponent"
-                      usageType="readWrite">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.String"
-                          description="Derived Column Expression"
-                          name="Expression">[UPPER]([TRIM](#{Package\WHOGlobalData\Flat File Source.Outputs[Flat File Source Output].Columns[WHO_region]}))</property>
-                        <property
-                          containsID="true"
-                          dataType="System.String"
-                          description="Derived Column Friendly Expression"
-                          expressionType="Notify"
-                          name="FriendlyExpression">UPPER(TRIM(WHO_region))</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\WHOGlobalData\Derived Column.Inputs[Derived Column Input].Columns[Cumulative_cases]"
-                      cachedCodepage="65001"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="Cumulative_cases"
-                      errorOrTruncationOperation="Computation"
-                      errorRowDisposition="FailComponent"
-                      lineageId="Package\WHOGlobalData\Flat File Source.Outputs[Flat File Source Output].Columns[Cumulative_cases]"
-                      truncationRowDisposition="FailComponent"
-                      usageType="readWrite">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.String"
-                          description="Derived Column Expression"
-                          name="Expression">([ISNULL](#{Package\WHOGlobalData\Flat File Source.Outputs[Flat File Source Output].Columns[New_cases]}) || [LEN]([TRIM](#{Package\WHOGlobalData\Flat File Source.Outputs[Flat File Source Output].Columns[New_cases]})) == 0) ? 0 : (DT_I4)[REPLACE]([TRIM](#{Package\WHOGlobalData\Flat File Source.Outputs[Flat File Source Output].Columns[New_cases]}),",","")</property>
-                        <property
-                          containsID="true"
-                          dataType="System.String"
-                          description="Derived Column Friendly Expression"
-                          expressionType="Notify"
-                          name="FriendlyExpression">(ISNULL(New_cases) || LEN(TRIM(New_cases)) == 0) ? 0 : (DT_I4)REPLACE(TRIM(New_cases),",","")</property>
-                      </properties>
-                    </inputColumn>
-                  </inputColumns>
-                  <externalMetadataColumns />
-                </input>
-              </inputs>
-              <outputs>
-                <output
-                  refId="Package\WHOGlobalData\Derived Column.Outputs[Derived Column Output]"
-                  description="Default Output of the Derived Column Transformation"
-                  exclusionGroup="1"
-                  name="Derived Column Output"
-                  synchronousInputId="Package\WHOGlobalData\Derived Column.Inputs[Derived Column Input]">
-                  <externalMetadataColumns />
-                </output>
-                <output
-                  refId="Package\WHOGlobalData\Derived Column.Outputs[Derived Column Error Output]"
-                  description="Error Output of the Derived Column Transformation"
-                  exclusionGroup="1"
-                  isErrorOut="true"
-                  name="Derived Column Error Output"
-                  synchronousInputId="Package\WHOGlobalData\Derived Column.Inputs[Derived Column Input]">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\WHOGlobalData\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorCode]"
-                      dataType="i4"
-                      lineageId="Package\WHOGlobalData\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorCode]"
-                      name="ErrorCode"
-                      specialFlags="1" />
-                    <outputColumn
-                      refId="Package\WHOGlobalData\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
-                      dataType="i4"
-                      lineageId="Package\WHOGlobalData\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
-                      name="ErrorColumn"
-                      specialFlags="2" />
-                  </outputColumns>
-                  <externalMetadataColumns />
-                </output>
-              </outputs>
-            </component>
-            <component
               refId="Package\WHOGlobalData\Flat File Source"
               componentClassID="Microsoft.FlatFileSource"
               contactInfo="Flat File Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
@@ -2108,8 +1637,8 @@
               <connections>
                 <connection
                   refId="Package\WHOGlobalData\Flat File Source.Connections[FlatFileConnection]"
-                  connectionManagerID="Package.ConnectionManagers[WHOGlobalData]"
-                  connectionManagerRefId="Package.ConnectionManagers[WHOGlobalData]"
+                  connectionManagerID="Package.ConnectionManagers[Flat File Connection Manager 1]"
+                  connectionManagerRefId="Package.ConnectionManagers[Flat File Connection Manager 1]"
                   name="FlatFileConnection" />
               </connections>
               <outputs>
@@ -2117,72 +1646,6 @@
                   refId="Package\WHOGlobalData\Flat File Source.Outputs[Flat File Source Output]"
                   name="Flat File Source Output">
                   <outputColumns>
-                    <outputColumn
-                      refId="Package\WHOGlobalData\Flat File Source.Outputs[Flat File Source Output].Columns[Country]"
-                      codePage="65001"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\WHOGlobalData\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Country]"
-                      length="50"
-                      lineageId="Package\WHOGlobalData\Flat File Source.Outputs[Flat File Source Output].Columns[Country]"
-                      name="Country"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\WHOGlobalData\Flat File Source.Outputs[Flat File Source Output].Columns[New_cases]"
-                      codePage="65001"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\WHOGlobalData\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[New_cases]"
-                      length="50"
-                      lineageId="Package\WHOGlobalData\Flat File Source.Outputs[Flat File Source Output].Columns[New_cases]"
-                      name="New_cases"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\WHOGlobalData\Flat File Source.Outputs[Flat File Source Output].Columns[New_deaths]"
-                      codePage="65001"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\WHOGlobalData\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[New_deaths]"
-                      length="50"
-                      lineageId="Package\WHOGlobalData\Flat File Source.Outputs[Flat File Source Output].Columns[New_deaths]"
-                      name="New_deaths"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
                     <outputColumn
                       refId="Package\WHOGlobalData\Flat File Source.Outputs[Flat File Source Output].Columns[Date_reported]"
                       codePage="65001"
@@ -2197,11 +1660,9 @@
                       <properties>
                         <property
                           dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
                           name="FastParse">false</property>
                         <property
                           dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
                           name="UseBinaryFormat">false</property>
                       </properties>
                     </outputColumn>
@@ -2219,11 +1680,29 @@
                       <properties>
                         <property
                           dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
                           name="FastParse">false</property>
                         <property
                           dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\WHOGlobalData\Flat File Source.Outputs[Flat File Source Output].Columns[Country]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\WHOGlobalData\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Country]"
+                      length="200"
+                      lineageId="Package\WHOGlobalData\Flat File Source.Outputs[Flat File Source Output].Columns[Country]"
+                      name="Country"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
                           name="UseBinaryFormat">false</property>
                       </properties>
                     </outputColumn>
@@ -2241,11 +1720,29 @@
                       <properties>
                         <property
                           dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
                           name="FastParse">false</property>
                         <property
                           dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\WHOGlobalData\Flat File Source.Outputs[Flat File Source Output].Columns[New_cases]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\WHOGlobalData\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[New_cases]"
+                      length="50"
+                      lineageId="Package\WHOGlobalData\Flat File Source.Outputs[Flat File Source Output].Columns[New_cases]"
+                      name="New_cases"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
                           name="UseBinaryFormat">false</property>
                       </properties>
                     </outputColumn>
@@ -2263,11 +1760,29 @@
                       <properties>
                         <property
                           dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
                           name="FastParse">false</property>
                         <property
                           dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\WHOGlobalData\Flat File Source.Outputs[Flat File Source Output].Columns[New_deaths]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\WHOGlobalData\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[New_deaths]"
+                      length="50"
+                      lineageId="Package\WHOGlobalData\Flat File Source.Outputs[Flat File Source Output].Columns[New_deaths]"
+                      name="New_deaths"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
                           name="UseBinaryFormat">false</property>
                       </properties>
                     </outputColumn>
@@ -2285,35 +1800,15 @@
                       <properties>
                         <property
                           dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
                           name="FastParse">false</property>
                         <property
                           dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
                           name="UseBinaryFormat">false</property>
                       </properties>
                     </outputColumn>
                   </outputColumns>
                   <externalMetadataColumns
                     isUsed="True">
-                    <externalMetadataColumn
-                      refId="Package\WHOGlobalData\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Country]"
-                      codePage="65001"
-                      dataType="str"
-                      length="50"
-                      name="Country" />
-                    <externalMetadataColumn
-                      refId="Package\WHOGlobalData\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[New_cases]"
-                      codePage="65001"
-                      dataType="str"
-                      length="50"
-                      name="New_cases" />
-                    <externalMetadataColumn
-                      refId="Package\WHOGlobalData\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[New_deaths]"
-                      codePage="65001"
-                      dataType="str"
-                      length="50"
-                      name="New_deaths" />
                     <externalMetadataColumn
                       refId="Package\WHOGlobalData\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Date_reported]"
                       codePage="65001"
@@ -2327,17 +1822,35 @@
                       length="50"
                       name="Country_code" />
                     <externalMetadataColumn
+                      refId="Package\WHOGlobalData\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Country]"
+                      codePage="65001"
+                      dataType="str"
+                      length="200"
+                      name="Country" />
+                    <externalMetadataColumn
                       refId="Package\WHOGlobalData\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[WHO_region]"
                       codePage="65001"
                       dataType="str"
                       length="50"
                       name="WHO_region" />
                     <externalMetadataColumn
+                      refId="Package\WHOGlobalData\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[New_cases]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      name="New_cases" />
+                    <externalMetadataColumn
                       refId="Package\WHOGlobalData\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Cumulative_cases]"
                       codePage="65001"
                       dataType="str"
                       length="50"
                       name="Cumulative_cases" />
+                    <externalMetadataColumn
+                      refId="Package\WHOGlobalData\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[New_deaths]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      name="New_deaths" />
                     <externalMetadataColumn
                       refId="Package\WHOGlobalData\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Cumulative_deaths]"
                       codePage="65001"
@@ -2353,7 +1866,7 @@
                   <outputColumns>
                     <outputColumn
                       refId="Package\WHOGlobalData\Flat File Source.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
-                      codePage="1252"
+                      codePage="65001"
                       dataType="text"
                       description="Flat File Source Error Output Column"
                       lineageId="Package\WHOGlobalData\Flat File Source.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
@@ -2378,18 +1891,8 @@
           </components>
           <paths>
             <path
-              refId="Package\WHOGlobalData.Paths[Data Conversion Output]"
-              endId="Package\WHOGlobalData\ADO NET Destination.Inputs[ADO NET Destination Input]"
-              name="Data Conversion Output"
-              startId="Package\WHOGlobalData\Data Conversion.Outputs[Data Conversion Output]" />
-            <path
-              refId="Package\WHOGlobalData.Paths[Derived Column Output]"
-              endId="Package\WHOGlobalData\Data Conversion.Inputs[Data Conversion Input]"
-              name="Derived Column Output"
-              startId="Package\WHOGlobalData\Derived Column.Outputs[Derived Column Output]" />
-            <path
               refId="Package\WHOGlobalData.Paths[Flat File Source Output]"
-              endId="Package\WHOGlobalData\Derived Column.Inputs[Derived Column Input]"
+              endId="Package\WHOGlobalData\ADO NET Destination.Inputs[ADO NET Destination Input]"
               name="Flat File Source Output"
               startId="Package\WHOGlobalData\Flat File Source.Outputs[Flat File Source Output]" />
           </paths>
@@ -2412,15 +1915,11 @@
         <NodeLayout
           Size="166.4,41.6"
           Id="Package\CountryWiseLatest"
-          TopLeft="172.999990848204,37.566666443679" />
+          TopLeft="7.99999986340602,5.49999999999995" />
         <NodeLayout
           Size="156,41.6"
           Id="Package\WHOGlobalData"
-          TopLeft="252.699998907248,119.899999204477" />
-        <NodeLayout
-          Size="179.2,41.6"
-          Id="Package\WHOGlobalDailyData"
-          TopLeft="369.999979784092,205.399998571674" />
+          TopLeft="232.7,5.49999999999995" />
       </GraphLayout>
     </LayoutInfo>
   </Package>
@@ -2428,35 +1927,163 @@
     design-time-name="Package\CountryWiseLatest">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="179.2,41.6"
           Id="Package\CountryWiseLatest\ADO NET Destination"
-          TopLeft="5.50000000000001,107.1" />
+          TopLeft="95.4999950826171,226.699999168316" />
         <NodeLayout
           Size="151.2,41.6"
           Id="Package\CountryWiseLatest\Flat File Source"
-          TopLeft="19.5,5.49999999999995" />
+          TopLeft="21.9999998634061,7.2333333212799" />
+        <NodeLayout
+          Size="152.8,41.6"
+          Id="Package\CountryWiseLatest\Derived Column"
+          TopLeft="318.333315940368,93.5999993491173" />
         <EdgeLayout
           Id="Package\CountryWiseLatest.Paths[Flat File Source Output]"
-          TopLeft="95.1,47.1">
+          TopLeft="97.5999998634061,48.8333333212799">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,59.9999999999999"
+              EndConnector="297.133316076962,44.7666660278374"
               Start="0,0"
-              End="0,52.4999999999999">
+              End="297.133316076962,37.2666660278374">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,52.4999999999999" />
+                    End="0,18.3833330139187" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,18.3833330139187"
+                    Point2="0,22.3833330139187"
+                    Point3="4,22.3833330139187" />
+                  <mssgle:LineSegment
+                    End="293.133316076962,22.3833330139187" />
+                  <mssgle:CubicBezierSegment
+                    Point1="293.133316076962,22.3833330139187"
+                    Point2="297.133316076962,22.3833330139187"
+                    Point3="297.133316076962,26.3833330139187" />
+                  <mssgle:LineSegment
+                    End="297.133316076962,37.2666660278374" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="153.6,41.6"
+          Id="Package\CountryWiseLatest\Conditional Split"
+          TopLeft="396.666644993757,212.333331856794" />
+        <EdgeLayout
+          Id="Package\CountryWiseLatest.Paths[Derived Column Output]"
+          TopLeft="394.733315940368,135.199999349117">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="78.7333290533888,77.1333325076766"
+              Start="0,0"
+              End="78.7333290533888,69.6333325076766">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,34.5666662538383" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,34.5666662538383"
+                    Point2="0,38.5666662538383"
+                    Point3="4,38.5666662538383" />
+                  <mssgle:LineSegment
+                    End="74.7333290533888,38.5666662538383" />
+                  <mssgle:CubicBezierSegment
+                    Point1="74.7333290533888,38.5666662538383"
+                    Point2="78.7333290533888,38.5666662538383"
+                    Point3="78.7333290533888,42.5666662538383" />
+                  <mssgle:LineSegment
+                    End="78.7333290533888,69.6333325076766" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\CountryWiseLatest.Paths[Conditional Split Default Output]"
+          TopLeft="396.666644993757,233.133331856794">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-121.966649911139,14.3666673115225"
+              Start="0,0"
+              End="-114.466649911139,14.3666673115225">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="-56.9833249555697,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-56.9833249555697,0"
+                    Point2="-60.9833249555697,0"
+                    Point3="-60.9833249555697,4" />
+                  <mssgle:LineSegment
+                    End="-60.9833249555697,10.3666673115225" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-60.9833249555697,10.3666673115225"
+                    Point2="-60.9833249555697,14.3666673115225"
+                    Point3="-64.9833249555697,14.3666673115225" />
+                  <mssgle:LineSegment
+                    End="-114.466649911139,14.3666673115225" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="170.4,41.6"
+          Id="Package\CountryWiseLatest\Flat File Destination"
+          TopLeft="189.166656331056,369.199997432629" />
+        <EdgeLayout
+          Id="Package\CountryWiseLatest.Paths[ADO NET Destination Error Output]"
+          TopLeft="185.099995082617,268.299999168316">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="89.2666612484391,100.899998264313"
+              Start="0,0"
+              End="89.2666612484391,93.3999982643128">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,46.4499991321564" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,46.4499991321564"
+                    Point2="0,50.4499991321564"
+                    Point3="4,50.4499991321564" />
+                  <mssgle:LineSegment
+                    End="85.2666612484391,50.4499991321564" />
+                  <mssgle:CubicBezierSegment
+                    Point1="85.2666612484391,50.4499991321564"
+                    Point2="89.2666612484391,50.4499991321564"
+                    Point3="89.2666612484391,54.4499991321564" />
+                  <mssgle:LineSegment
+                    End="89.2666612484391,93.3999982643128" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-32.5811225007805,55.4499991321564,154.42890625,11.43359375"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -2466,185 +2093,37 @@
     design-time-name="Package\WHOGlobalData">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="151.2,41.6"
+          Size="NaN,NaN"
           Id="Package\WHOGlobalData\Flat File Source"
-          TopLeft="19.5,5.49999999999995" />
+          TopLeft="NaN,NaN" />
         <NodeLayout
-          Size="179.2,41.6"
+          Size="NaN,NaN"
           Id="Package\WHOGlobalData\ADO NET Destination"
-          TopLeft="15.4999998509884,310.099996975064" />
-        <NodeLayout
-          Size="152.8,41.6"
-          Id="Package\WHOGlobalData\Derived Column"
-          TopLeft="151.999997735024,90.9999986439943" />
+          TopLeft="NaN,NaN" />
         <EdgeLayout
           Id="Package\WHOGlobalData.Paths[Flat File Source Output]"
-          TopLeft="95.1,47.1">
+          TopLeft="NaN,NaN">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="133.299997735024,43.8999986439944"
+              EndConnector="{assembly:Null}"
               Start="0,0"
-              End="133.299997735024,36.3999986439944">
+              End="0,0">
               <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,17.9499993219972" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,17.9499993219972"
-                    Point2="0,21.9499993219972"
-                    Point3="4,21.9499993219972" />
-                  <mssgle:LineSegment
-                    End="129.299997735024,21.9499993219972" />
-                  <mssgle:CubicBezierSegment
-                    Point1="129.299997735024,21.9499993219972"
-                    Point2="133.299997735024,21.9499993219972"
-                    Point3="133.299997735024,25.9499993219972" />
-                  <mssgle:LineSegment
-                    End="133.299997735024,36.3999986439944" />
-                </mssgle:SegmentCollection>
+                <assembly:Null />
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="156,41.6"
-          Id="Package\WHOGlobalData\Data Conversion"
-          TopLeft="219.999996721745,185.999997228384" />
-        <EdgeLayout
-          Id="Package\WHOGlobalData.Paths[Derived Column Output]"
-          TopLeft="228.399997735024,132.599998643994">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="69.599998986721,53.3999985843897"
-              Start="0,0"
-              End="69.599998986721,45.8999985843897">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,22.6999992921949" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,22.6999992921949"
-                    Point2="0,26.6999992921949"
-                    Point3="4,26.6999992921949" />
-                  <mssgle:LineSegment
-                    End="65.599998986721,26.6999992921949" />
-                  <mssgle:CubicBezierSegment
-                    Point1="65.599998986721,26.6999992921949"
-                    Point2="69.599998986721,26.6999992921949"
-                    Point3="69.599998986721,30.6999992921949" />
-                  <mssgle:LineSegment
-                    End="69.599998986721,45.8999985843897" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\WHOGlobalData.Paths[Data Conversion Output]"
-          TopLeft="297.999996721745,227.599997228384">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-192.899996870756,82.4999997466801"
-              Start="0,0"
-              End="-192.899996870756,74.9999997466801">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,37.2499998733401" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,37.2499998733401"
-                    Point2="0,41.2499998733401"
-                    Point3="-4,41.2499998733401" />
-                  <mssgle:LineSegment
-                    End="-188.899996870756,41.2499998733401" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-188.899996870756,41.2499998733401"
-                    Point2="-192.899996870756,41.2499998733401"
-                    Point3="-192.899996870756,45.2499998733401" />
-                  <mssgle:LineSegment
-                    End="-192.899996870756,74.9999997466801" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
-  <TaskHost
-    design-time-name="Package\WHOGlobalDailyData">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
-        <NodeLayout
-          Size="151.2,41.6"
-          Id="Package\WHOGlobalDailyData\Flat File Source"
-          TopLeft="223.99999666214,56.9999991506338" />
-        <NodeLayout
-          Size="179.2,41.6"
-          Id="Package\WHOGlobalDailyData\ADO NET Destination"
-          TopLeft="376.999994382262,195.999997079372" />
-        <EdgeLayout
-          Id="Package\WHOGlobalDailyData.Paths[Flat File Source Output]"
-          TopLeft="299.59999666214,98.5999991506338">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="166.999997720122,97.3999979287386"
-              Start="0,0"
-              End="166.999997720122,89.8999979287386">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,44.6999989643693" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,44.6999989643693"
-                    Point2="0,48.6999989643693"
-                    Point3="4,48.6999989643693" />
-                  <mssgle:LineSegment
-                    End="162.999997720122,48.6999989643693" />
-                  <mssgle:CubicBezierSegment
-                    Point1="162.999997720122,48.6999989643693"
-                    Point2="166.999997720122,48.6999989643693"
-                    Point3="166.999997720122,52.6999989643693" />
-                  <mssgle:LineSegment
-                    End="166.999997720122,89.8999979287386" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-      </GraphLayout>
-    </LayoutInfo>
-  </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\WHOGlobalDailyData\ADO NET Destination">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
 </Objects>]]></DTS:DesignTimeProperties>
 </DTS:Executable>
